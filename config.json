@@ -1,0 +1,47 @@
+{
+  "options": {
+    "paths": {
+      "root": "/home/martijn/tileserver/tileserver-gl/node_modules/tileserver-gl-styles",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "/home/martijn/tileserver/tileserver-gl"
+    },
+    "domains":[ 
+      "a.map.colombiainfo.org",
+      "b.map.colombiainfo.org",
+      "c.map.colombiainfo.org",
+      "d.map.colombiainfo.org",
+      "map.colombiainfo.org",
+      "map.colombiatransit.co",
+      "a.map.colombiatransit.co",
+      "b.map.colombiatransit.co",
+      "c.map.colombiatransit.co",
+      "d.map.colombiatransit.co"
+    ],
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "serveAllFonts": true
+  },
+  "styles": {
+  "basic": {
+      "style": "maptiler-basic-gl-style/style.json",
+      "tilejson": {
+        "bounds": [
+          -83.23104,
+          -4.25732,
+          -66.81472,
+          16.59407
+        ]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "colombia.mbtiles"
+    }
+  }
+}
